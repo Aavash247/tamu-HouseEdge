@@ -1,0 +1,14 @@
+{
+  "blend_weight": 0.25,
+  "model_type": "blend_neighbor_pooled",
+  "model_version": 1,
+  "neighbor_path": "neighbor_model.json",
+  "payouts": [
+    0,
+    1,
+    2,
+    5,
+    20
+  ],
+  "pooled_path": "pooled_model.json"
+}

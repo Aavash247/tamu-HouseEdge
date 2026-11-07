@@ -1,0 +1,129 @@
+{
+  "best_kind": "blend",
+  "best_settings": {
+    "blend_weight": 0.25,
+    "half_life": 12.0,
+    "neighbor_weight": 0.15,
+    "pooled_half_life": 16.0,
+    "pooled_prior_strength": 10.0,
+    "prior_strength": 10.0,
+    "same_type_only": true
+  },
+  "contest": {
+    "technical_points": 30.911006029201744,
+    "mean_loss_ratio": 0.9410562031956442
+  },
+  "pooled_side": {
+    "half_life": 16.0,
+    "prior_strength": 10.0
+  },
+  "blend_grid": [
+    {
+      "blend_weight_on_neighbor": 0.0,
+      "by_condition": {
+        "drift": 0.9435975976071441,
+        "shared_change": 0.8634570000613653,
+        "short_history": 0.9966550951442583,
+        "stable": 0.9627019993802562
+      },
+      "mean_loss_ratio": 0.941602923048256,
+      "seconds": 0.03546049999931711,
+      "technical_points": 30.902302055562355
+    },
+    {
+      "blend_weight_on_neighbor": 0.25,
+      "by_condition": {
+        "drift": 0.9464621513306658,
+        "shared_change": 0.8590445200253669,
+        "short_history": 0.9987118399482943,
+        "stable": 0.9600063014782498
+      },
+      "mean_loss_ratio": 0.9410562031956442,
+      "seconds": 0.037409000000479864,
+      "technical_points": 30.911006029201744
+    },
+    {
+      "blend_weight_on_neighbor": 0.5,
+      "by_condition": {
+        "drift": 0.9501952691824933,
+        "shared_change": 0.8554255490107981,
+        "short_history": 1.0018090706654261,
+        "stable": 0.958260139475667
+      },
+      "mean_loss_ratio": 0.9414225070835962,
+      "seconds": 0.031621300000551855,
+      "technical_points": 30.905173799665054
+    },
+    {
+      "blend_weight_on_neighbor": 0.75,
+      "by_condition": {
+        "drift": 0.9547969511626264,
+        "shared_change": 0.8526000870176595,
+        "short_history": 1.005946787295654,
+        "stable": 0.9574635133725086
+      },
+      "mean_loss_ratio": 0.9427018347121121,
+      "seconds": 0.03344500000093831,
+      "technical_points": 30.884821812551262
+    },
+    {
+      "blend_weight_on_neighbor": 1.0,
+      "by_condition": {
+        "drift": 0.9602671972710656,
+        "shared_change": 0.8505681340459512,
+        "short_history": 1.011124989838978,
+        "stable": 0.9576164231687737
+      },
+      "mean_loss_ratio": 0.9448941860811921,
+      "seconds": 0.0310682999988785,
+      "technical_points": 30.850007383124144
+    }
+  ],
+  "neighbor_top5": [
+    {
+      "half_life": 12.0,
+      "mean_loss_ratio": 0.9448941860811921,
+      "neighbor_weight": 0.15,
+      "prior_strength": 10.0,
+      "same_type_only": true,
+      "seconds": 0.3180759999995644,
+      "technical_points": 30.850007383124144
+    },
+    {
+      "half_life": 16.0,
+      "mean_loss_ratio": 0.9449175807780487,
+      "neighbor_weight": 0.15,
+      "prior_strength": 10.0,
+      "same_type_only": true,
+      "seconds": 0.31808379999893077,
+      "technical_points": 30.849636299753886
+    },
+    {
+      "half_life": 24.0,
+      "mean_loss_ratio": 0.9479660340436012,
+      "neighbor_weight": 0.15,
+      "prior_strength": 10.0,
+      "same_type_only": true,
+      "seconds": 0.3400469999996858,
+      "technical_points": 30.801358417657614
+    },
+    {
+      "half_life": 12.0,
+      "mean_loss_ratio": 0.9499996746904326,
+      "neighbor_weight": 0.25,
+      "prior_strength": 10.0,
+      "same_type_only": true,
+      "seconds": 0.3117909000011423,
+      "technical_points": 30.769235902321448
+    },
+    {
+      "half_life": 16.0,
+      "mean_loss_ratio": 0.9502970505761872,
+      "neighbor_weight": 0.25,
+      "prior_strength": 10.0,
+      "same_type_only": true,
+      "seconds": 0.32512080000014976,
+      "technical_points": 30.76454429455957
+    }
+  ]
+}

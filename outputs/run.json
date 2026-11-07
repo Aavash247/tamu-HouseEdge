@@ -1,0 +1,46 @@
+{
+  "best_validation_method": "pooled_recent",
+  "settings": {
+    "half_life": 24.0,
+    "method": "pooled",
+    "prior_strength": 20.0
+  },
+  "checks": {
+    "saved_model_max_probability_difference": 1.1102230246251565e-16,
+    "saved_model_reproduces_validation": true,
+    "test_submission_valid": true
+  },
+  "comparison": {
+    "context": {
+      "technical_points": 29.685186081078704,
+      "mean_loss_ratio": 1.0212101698174603,
+      "probability_error": 0.19594910126980322
+    },
+    "empirical": {
+      "technical_points": 29.918071872666786,
+      "mean_loss_ratio": 1.0054768320419782,
+      "probability_error": 0.19329817834272564
+    },
+    "global": {
+      "technical_points": 26.730498622372806,
+      "mean_loss_ratio": 1.244627039982763,
+      "probability_error": 0.2390756066464371
+    },
+    "pooled": {
+      "technical_points": 30.0,
+      "mean_loss_ratio": 1.0,
+      "probability_error": 0.19224720777560153
+    },
+    "pooled_recent": {
+      "technical_points": 30.82585360572079,
+      "mean_loss_ratio": 0.9464181192654775,
+      "probability_error": 0.18153680451703846
+    },
+    "recent": {
+      "technical_points": 30.743190880103462,
+      "mean_loss_ratio": 0.9516516757807046,
+      "probability_error": 0.182457966778407
+    }
+  },
+  "validation_technical_points": 30.0
+}
