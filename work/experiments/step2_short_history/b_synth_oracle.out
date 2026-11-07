@@ -1,0 +1,8 @@
+regenerated data identical to synthetic_audit data: [True, True, True, True, True]
+
+Share of the gap (base -> param_oracle) closed, mean over 5 seeds [min, max]; error values are means
+stable          base=0.0291 oracle=0.0100 | true_pair: err=0.0291 closes   0.1% [-0,0] | true_pair+rates: err=0.0109 closes  94.8% [93,96] | true_size: err=0.0281 closes   5.5% [3,7] |
+short_history   base=0.0158 oracle=0.0095 | true_pair: err=0.0147 closes  14.5% [0,35] | true_pair+rates: err=0.0109 closes  77.9% [66,94] | true_size: err=0.0144 closes  21.5% [4,34] |
+drift           base=0.0294 oracle=0.0101 | true_pair: err=0.0294 closes  -0.0% [-0,0] | true_pair+rates: err=0.0115 closes  92.4% [87,97] | true_size: err=0.0280 closes   7.6% [4,13] |
+shared_change   base=0.0286 oracle=0.0101 | true_pair: err=0.0286 closes  -0.0% [-0,0] | true_pair+rates: err=0.0110 closes  95.0% [92,99] | true_size: err=0.0277 closes   5.0% [1,8] |
+unseen_pattern  base=0.1119 oracle=0.0079 | true_pair: err=0.0816 closes  29.3% [16,38] | true_pair+rates: err=0.0083 closes  99.7% [99,101] | true_size: err=0.1115 closes   0.4% [-0,1] |

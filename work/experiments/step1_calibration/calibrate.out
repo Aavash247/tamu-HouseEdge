@@ -1,0 +1,38 @@
+Train CV, folds 0-2 (fold 3 LOCKED). Brier vs outcomes on 25 ticks/machine; delta = base - variant (positive = better). Parameters chosen on the other two folds.
+
+base                           chosen(full)=[]  per-fold chosen=[[], [], []]
+   delta vs base per fold: ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000   | gain vs pooled ref: ['0.1753', '0.1885', '0.1888'] mean 0.1842
+      stable         ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      short_history  ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      drift          ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      shared_change  ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+shrink_global                  chosen(full)=[('shrink_global', 0)]  per-fold chosen=[[('shrink_global', 0)], [('shrink_global', 0)], [('shrink_global', 0)]]
+   delta vs base per fold: ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000   | gain vs pooled ref: ['0.1753', '0.1885', '0.1888'] mean 0.1842
+      stable         ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      short_history  ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      drift          ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      shared_change  ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+shrink_type                    chosen(full)=[('shrink_type', 0)]  per-fold chosen=[[('shrink_type', 0)], [('shrink_type', 0)], [('shrink_type', 0)]]
+   delta vs base per fold: ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000   | gain vs pooled ref: ['0.1753', '0.1885', '0.1888'] mean 0.1842
+      stable         ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      short_history  ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      drift          ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+      shared_change  ['+0.00000', '+0.00000', '+0.00000']  mean +0.00000 ± 0.00000
+floor                          chosen(full)=[('floor', 0.001)]  per-fold chosen=[[('floor', 0.001)], [('floor', 0.002)], [('floor', 0.001)]]
+   delta vs base per fold: ['-0.00000', '-0.00000', '+0.00000']  mean -0.00000 ± 0.00000   | gain vs pooled ref: ['0.1753', '0.1885', '0.1888'] mean 0.1842
+      stable         ['-0.00000', '+0.00002', '+0.00001']  mean +0.00001 ± 0.00001
+      short_history  ['-0.00000', '-0.00001', '+0.00000']  mean -0.00000 ± 0.00000
+      drift          ['+0.00000', '+0.00000', '-0.00001']  mean +0.00000 ± 0.00000
+      shared_change  ['+0.00000', '-0.00003', '-0.00000']  mean -0.00001 ± 0.00002
+temp                           chosen(full)=[('temp', 1.0)]  per-fold chosen=[[('temp', 1.0)], [('temp', 1.0)], [('temp', 1.0)]]
+   delta vs base per fold: ['-0.00000', '-0.00000', '-0.00000']  mean -0.00000 ± 0.00000   | gain vs pooled ref: ['0.1753', '0.1885', '0.1888'] mean 0.1842
+      stable         ['-0.00000', '-0.00000', '+0.00000']  mean -0.00000 ± 0.00000
+      short_history  ['-0.00000', '-0.00000', '+0.00000']  mean -0.00000 ± 0.00000
+      drift          ['-0.00000', '+0.00000', '-0.00000']  mean -0.00000 ± 0.00000
+      shared_change  ['+0.00000', '+0.00000', '-0.00000']  mean -0.00000 ± 0.00000
+combo_shrink_type+temp+floor   chosen(full)=[('shrink_type', 0), ('temp', 1.0), ('floor', 0.001)]  per-fold chosen=[[('shrink_type', 0), ('temp', 1.0), ('floor', 0.001)], [('shrink_type', 0), ('temp', 1.0), ('floor', 0.002)], [('shrink_type', 0), ('temp', 1.0), ('floor', 0.001)]]
+   delta vs base per fold: ['-0.00000', '-0.00000', '+0.00000']  mean -0.00000 ± 0.00000   | gain vs pooled ref: ['0.1753', '0.1885', '0.1888'] mean 0.1842
+      stable         ['-0.00000', '+0.00002', '+0.00001']  mean +0.00001 ± 0.00001
+      short_history  ['-0.00000', '-0.00001', '+0.00000']  mean -0.00000 ± 0.00000
+      drift          ['+0.00000', '+0.00000', '-0.00001']  mean +0.00000 ± 0.00000
+      shared_change  ['+0.00000', '-0.00003', '-0.00000']  mean -0.00001 ± 0.00002

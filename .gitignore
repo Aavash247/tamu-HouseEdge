@@ -9,3 +9,9 @@ work/baseline_test.csv
 /entry-v2.zip
 /entry-v3.zip
 work/experiments/step4_round_two/data/
+work/round2-dryrun/
+work/**/data/
+work/experiments/step2_short_history/synth_regen/
+work/experiments/step1_calibration/eval_arrays.npz
+*.zip
+.ipynb_checkpoints/

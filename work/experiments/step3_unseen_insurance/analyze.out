@@ -1,0 +1,26 @@
+delta = base - variant in Brier on train folds 0-2 (positive = better); fold 3 LOCKED. Validation and synthetic are checks/targets, not used for CV.
+
+eps=0.0        CV all-cond delta per fold ['+0.000000', '+0.000000', '+0.000000'] mean +0.000000 ± 0.000000 | validation 55.6016 | synthetic known 93.77% unseen 51.74% (seeds [np.float64(55.0), np.float64(47.9), np.float64(51.2), np.float64(52.4), np.float64(52.2)])
+               per condition (mean ± sd over folds): stable=+0.000000±0.000000  short_history=+0.000000±0.000000  drift=+0.000000±0.000000  shared_change=+0.000000±0.000000  | within_noise=True val_not_lower=True
+eps=0.005      CV all-cond delta per fold ['+0.000004', '-0.000032', '+0.000000'] mean -0.000009 ± 0.000016 | validation 55.6014 | synthetic known 93.77% unseen 71.28% (seeds [np.float64(70.1), np.float64(69.2), np.float64(70.6), np.float64(76.5), np.float64(70.0)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=-0.000037±0.000066  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=True val_not_lower=False
+eps=0.01       CV all-cond delta per fold ['+0.000009', '-0.000061', '+0.000000'] mean -0.000017 ± 0.000031 | validation 55.6011 | synthetic known 93.77% unseen 71.29% (seeds [np.float64(70.1), np.float64(69.1), np.float64(70.3), np.float64(76.7), np.float64(70.3)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=-0.000069±0.000124  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=True val_not_lower=False
+eps=0.02       CV all-cond delta per fold ['+0.000016', '-0.000109', '+0.000001'] mean -0.000031 ± 0.000056 | validation 55.6006 | synthetic known 93.77% unseen 71.28% (seeds [np.float64(70.0), np.float64(69.0), np.float64(69.9), np.float64(76.8), np.float64(70.7)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=-0.000123±0.000222  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=True val_not_lower=False
+eps=0.05       CV all-cond delta per fold ['+0.000031', '-0.000214', '+0.000001'] mean -0.000061 ± 0.000109 | validation 55.5988 | synthetic known 93.76% unseen 71.21% (seeds [np.float64(69.9), np.float64(68.9), np.float64(69.4), np.float64(76.8), np.float64(71.1)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=-0.000242±0.000436  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=True val_not_lower=False
+eps=0.0 +2.1b  CV all-cond delta per fold ['+0.000835', '+0.000519', '+0.000204'] mean +0.000520 ± 0.000257 | validation 55.6082 | synthetic known 93.78% unseen 51.74% (seeds [np.float64(55.0), np.float64(47.9), np.float64(51.2), np.float64(52.4), np.float64(52.2)])
+               per condition (mean ± sd over folds): stable=+0.000000±0.000000  short_history=+0.002079±0.001030  drift=+0.000000±0.000000  shared_change=+0.000000±0.000000  | within_noise=False val_not_lower=True
+eps=0.005 +2.1b CV all-cond delta per fold ['+0.000841', '+0.000459', '+0.000204'] mean +0.000501 ± 0.000262 | validation 55.6085 | synthetic known 93.78% unseen 71.28% (seeds [np.float64(70.1), np.float64(69.2), np.float64(70.6), np.float64(76.5), np.float64(70.0)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=+0.002006±0.001047  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=False val_not_lower=True
+eps=0.01 +2.1b CV all-cond delta per fold ['+0.000847', '+0.000411', '+0.000204'] mean +0.000487 ± 0.000268 | validation 55.6088 | synthetic known 93.78% unseen 71.29% (seeds [np.float64(70.1), np.float64(69.1), np.float64(70.3), np.float64(76.7), np.float64(70.3)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=+0.001950±0.001071  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=False val_not_lower=True
+eps=0.02 +2.1b CV all-cond delta per fold ['+0.000857', '+0.000341', '+0.000204'] mean +0.000467 ± 0.000281 | validation 55.6092 | synthetic known 93.77% unseen 71.28% (seeds [np.float64(70.0), np.float64(69.0), np.float64(69.9), np.float64(76.8), np.float64(70.7)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=+0.001869±0.001124  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=False val_not_lower=True
+eps=0.05 +2.1b CV all-cond delta per fold ['+0.000879', '+0.000215', '+0.000204'] mean +0.000433 ± 0.000316 | validation 55.6098 | synthetic known 93.77% unseen 71.21% (seeds [np.float64(69.9), np.float64(68.9), np.float64(69.4), np.float64(76.8), np.float64(71.1)])
+               per condition (mean ± sd over folds): stable=-0.000000±0.000000  short_history=+0.001731±0.001262  drift=-0.000000±0.000000  shared_change=-0.000000±0.000000  | within_noise=False val_not_lower=True
+
+RULE PICK (without 2.1b): largest eps passing = none
+
+RULE PICK (with 2.1b): largest eps passing = none
