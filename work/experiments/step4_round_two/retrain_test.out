@@ -1,0 +1,38 @@
+seed 1 full found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.3, 0.37, 0.34] check=0.0e+00 fit=70s total=449s
+seed 1 half found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.31, 0.32, 0.38] check=0.0e+00 fit=35s total=423s
+seed 2 full found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.31, 0.35, 0.35] check=0.0e+00 fit=70s total=454s
+seed 2 half found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.33, 0.31, 0.35] check=0.0e+00 fit=36s total=429s
+seed 3 full found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.32, 0.36, 0.32] check=0.0e+00 fit=68s total=451s
+seed 3 half found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.3, 0.37, 0.34] check=0.0e+00 fit=35s total=425s
+seed 4 full found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.3, 0.34, 0.35] check=0.0e+00 fit=71s total=453s
+seed 4 half found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.31, 0.35, 0.34] check=0.0e+00 fit=34s total=426s
+seed 5 full found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.32, 0.33, 0.35] check=0.0e+00 fit=69s total=451s
+seed 5 half found=[[1, 4], [2, 6], [3, 8]] true=[[1, 4], [2, 6], [3, 8]] prior=[0.32, 0.33, 0.35] check=0.0e+00 fit=34s total=423s
+
+full base      gap closed per condition, mean over seeds [min, max]:
+   stable           92.0% [91.4, 92.4]   loss ratio vs pooled 0.120
+   short_history    97.2% [96.1, 98.1]   loss ratio vs pooled 0.069
+   drift            92.3% [91.2, 95.2]   loss ratio vs pooled 0.116
+   shared_change    93.1% [91.0, 95.5]   loss ratio vs pooled 0.103
+   ALL              93.6% per seed [np.float64(93.4), np.float64(94.0), np.float64(93.9), np.float64(92.7), np.float64(94.0)]   implied points 54.45 [np.float64(53.95), np.float64(55.05), np.float64(54.84), np.float64(54.38), np.float64(54.01)]
+
+full candidate gap closed per condition, mean over seeds [min, max]:
+   stable           92.0% [91.4, 92.4]   loss ratio vs pooled 0.120
+   short_history    97.4% [96.1, 98.4]   loss ratio vs pooled 0.068
+   drift            92.3% [91.2, 95.2]   loss ratio vs pooled 0.116
+   shared_change    93.1% [91.0, 95.5]   loss ratio vs pooled 0.103
+   ALL              93.7% per seed [np.float64(93.5), np.float64(94.0), np.float64(94.1), np.float64(92.7), np.float64(94.0)]   implied points 54.47 [np.float64(53.98), np.float64(55.07), np.float64(54.92), np.float64(54.37), np.float64(54.0)]
+
+half base      gap closed per condition, mean over seeds [min, max]:
+   stable           92.0% [91.4, 92.4]   loss ratio vs pooled 0.120
+   short_history    97.1% [96.0, 98.1]   loss ratio vs pooled 0.070
+   drift            92.2% [91.1, 95.3]   loss ratio vs pooled 0.116
+   shared_change    93.1% [91.0, 95.5]   loss ratio vs pooled 0.103
+   ALL              93.6% per seed [np.float64(93.4), np.float64(94.0), np.float64(93.9), np.float64(92.7), np.float64(94.0)]   implied points 54.44 [np.float64(53.95), np.float64(55.05), np.float64(54.83), np.float64(54.37), np.float64(54.0)]
+
+half candidate gap closed per condition, mean over seeds [min, max]:
+   stable           92.0% [91.4, 92.4]   loss ratio vs pooled 0.120
+   short_history    97.4% [96.0, 98.4]   loss ratio vs pooled 0.068
+   drift            92.2% [91.1, 95.3]   loss ratio vs pooled 0.116
+   shared_change    93.1% [91.0, 95.5]   loss ratio vs pooled 0.103
+   ALL              93.7% per seed [np.float64(93.5), np.float64(94.1), np.float64(94.1), np.float64(92.7), np.float64(94.0)]   implied points 54.47 [np.float64(53.98), np.float64(55.07), np.float64(54.93), np.float64(54.37), np.float64(54.0)]
