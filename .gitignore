@@ -1,0 +1,10 @@
+work/.venv/
+work/.venv313/
+__pycache__/
+*.pyc
+*.pkl
+work/v2/
+work/v3/
+work/baseline_test.csv
+/entry-v2.zip
+/entry-v3.zip
