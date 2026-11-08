@@ -1,3 +1,0 @@
-model         points=55.602 stable=0.0685 short_history=0.0978 drift=0.0769 shared_change=0.0732
-perfect win   points=57.076 stable=0.0470 short_history=0.0553 drift=0.0499 shared_change=0.0528
-perfect size  points=58.302 stable=0.0225 short_history=0.0432 drift=0.0293 shared_change=0.0215

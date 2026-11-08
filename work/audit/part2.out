@@ -1,5 +1,0 @@
-fold 0: train eps=72 test eps=24 pairs=[[1, 3], [2, 5], [4, 7]] (96s)
-fold 1: train eps=72 test eps=24 pairs=[[1, 3], [2, 5], [4, 7]] (189s)
-fold 2: train eps=72 test eps=24 pairs=[[1, 3], [2, 5], [4, 7]] (284s)
-fold 3: train eps=72 test eps=24 pairs=[[1, 3], [2, 5], [4, 7]] (380s)
-done (603s)

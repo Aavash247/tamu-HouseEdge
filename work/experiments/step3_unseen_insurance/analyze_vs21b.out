@@ -1,6 +1,0 @@
-eps effect on top of 2.1b: delta = (2.1b) - (eps+2.1b), positive = better
-eps=0.005  folds ['+0.000006', '-0.000061', '+0.000000'] mean -0.000018 ± 0.000030 | short -0.000073 ± 0.000121 | validation 55.6085 vs 2.1b 55.6082 | within_noise=True val_ok=True
-eps=0.01   folds ['+0.000012', '-0.000108', '+0.000000'] mean -0.000032 ± 0.000054 | short -0.000129 ± 0.000216 | validation 55.6088 vs 2.1b 55.6082 | within_noise=True val_ok=True
-eps=0.02   folds ['+0.000022', '-0.000179', '+0.000000'] mean -0.000052 ± 0.000090 | short -0.000209 ± 0.000360 | validation 55.6092 vs 2.1b 55.6082 | within_noise=True val_ok=True
-eps=0.05   folds ['+0.000044', '-0.000305', '-0.000000'] mean -0.000087 ± 0.000155 | short -0.000348 ± 0.000620 | validation 55.6098 vs 2.1b 55.6082 | within_noise=True val_ok=True
-RULE PICK on top of 2.1b: largest eps passing = 0.05
