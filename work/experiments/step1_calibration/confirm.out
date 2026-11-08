@@ -1,6 +1,0 @@
-base                           params=[]  validation=55.602  lost={'stable': 0.897, 'short_history': 1.289, 'drift': 1.009, 'shared_change': 0.959}  synthetic known=93.8% unseen=51.7%
-shrink_global                  params=[('shrink_global', 0)]  validation=55.602  lost={'stable': 0.897, 'short_history': 1.289, 'drift': 1.009, 'shared_change': 0.959}  synthetic known=93.8% unseen=51.7%
-shrink_type                    params=[('shrink_type', 0)]  validation=55.602  lost={'stable': 0.897, 'short_history': 1.289, 'drift': 1.009, 'shared_change': 0.959}  synthetic known=93.8% unseen=51.7%
-floor                          params=[('floor', 0.001)]  validation=55.602  lost={'stable': 0.897, 'short_history': 1.29, 'drift': 1.008, 'shared_change': 0.959}  synthetic known=93.8% unseen=51.7%
-temp                           params=[('temp', 1.0)]  validation=55.602  lost={'stable': 0.897, 'short_history': 1.289, 'drift': 1.009, 'shared_change': 0.959}  synthetic known=93.8% unseen=51.7%
-combo_shrink_type+temp+floor   params=[('shrink_type', 0), ('temp', 1.0), ('floor', 0.001)]  validation=55.602  lost={'stable': 0.897, 'short_history': 1.29, 'drift': 1.008, 'shared_change': 0.959}  synthetic known=93.8% unseen=51.7%
